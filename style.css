@@ -1,0 +1,57 @@
+*{
+	/*CSS Syntax*/
+
+	font-family: "Roboto", sans-serif;
+}
+h1, h2{
+	font-family: "Montserrat", sans-serif;
+}
+
+img{
+	height: :250px;
+	width: 250px;
+}
+#landing{
+	height: :80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+#gallery{
+	height: 75vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 6px;
+	
+}
+.jumbotron{
+	background-color: transparent;
+}
+ul{
+	list-style:none;
+}
+h2{
+	color:#007bff;
+}
+h1{
+	color:#007bff;
+}
+p{
+	color: black;
+}
+.tools{
+	padding:25px;
+	height: :200px;
+	margin:20px;
+	width: :75%;
+	border: 5px solid #f2f2f2;
+	color:white;
+	text-align: : center;
+}
+html{
+	scroll-behavior: smooth;
+}
